@@ -78,7 +78,7 @@ async function renderAnime(animeList) {
 
     const genreElement = document.createElement("p");
     genreElement.textContent = anime.genres[0].name; //
-    genreElement.classList.add("text-red-700", "mb-2", "mr-20");
+    genreElement.classList.add("text-red-700", "mb-2", "mr-24");
     ratingContainer.appendChild(genreElement);
 
     // create star icon
