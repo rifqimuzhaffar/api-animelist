@@ -2,7 +2,7 @@
 async function getApi() {
   const response = await fetch("https://api.jikan.moe/v4/top/anime");
   const result = await response.json();
-  console.log(result.data);
+  // console.log(result.data);
   return result.data;
 }
 
